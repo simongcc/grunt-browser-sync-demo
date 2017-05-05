@@ -1,0 +1,8 @@
+.sass-cache
+.tmp
+dist
+node_modules
+app/assets/bower_components
+app/vendor/
+app/_/bower_components/
+node_modules-bulky/

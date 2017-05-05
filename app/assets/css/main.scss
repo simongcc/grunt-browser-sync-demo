@@ -1,0 +1,57 @@
+$max-width: 960px;
+$max-height: 720px;
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+///////////////////////////////////
+// helpers
+///////////////////////////////////
+.align-center {
+	text-align: center;
+}
+
+///////////////////////////////////
+// absolute center
+///////////////////////////////////
+.absolute-center {
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+ }
+
+.main {
+    height: $max-height;
+	width: $max-width;
+}
+
+.content-wrapper {
+	position: relative;
+
+	height: 100%;
+	width: 100%;
+	margin: auto;
+
+	background-size: cover;
+}	
+
+/////////////////////////////////
+// each page
+/////////////////////////////////
+// ==============
+// Cover
+// ==============
+.cover {
+	.content-wrapper {
+		background: wheat; 
+	}
+}
